@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDdonalds: Burgers, Fries, Mojitos</title>
+    <link rel="icon" type="image/x-icon" href="https://www.mcdonalds.com/us/en-us.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="row bg-white container">
+            
+           <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="container-fluid"></div>
+                    <div class="row col-md-3 col-6"><a class="navbar-brand" href="https://www.mcdonalds.com/us/en-us.html"><img class="MCD-LOGO img-fluid" src="./mcdonaldslogo.jpg" alt=""></a>    </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+                    <div class="collapse navbar-collapse col-md-9 col-6 " id="navbarNavDropdown">
+                        
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Our Menu
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/drinks.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/drinks_300x300:menu-category-desktop" alt=""> Beverages</a></li>
+                                    <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/combo-meal.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/nav_combo_meal_160x160_:menu-category-desktop" alt=""> Combo Meal</a></li>
+                                    <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/mccafe-bakery.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/Menu_LeftRail_mcd-160x160:menu-category-desktop" alt=""> McCafe Bakery</a></li>
+                                    <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/breakfast.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/breakfast_300x300:menu-category-desktop" alt=""> Break Fast</a></li>
+                                <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/desserts-and-shakes.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/desserts_shakes_300x300:menu-category-desktop" alt=""> Deserts&shakes</a></li>
+                                <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/snacks-and-sides.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/snacks_sides_300x300:menu-category-desktop" alt=""> Snacks& Sides</a></li>
+                            
+                                <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/burgers.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/burgers_300x300:menu-category-desktop" alt=""> Burgers</a></li>
+                                <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/happy-meal.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/nav_happy_meal_160x160:menu-category-desktop" alt=""> Happy Meal</a></li>
+                                <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/123dollarmenu.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/D123_160x160:menu-category-desktop" alt=""> $1 $2 $3 Dollar Menu*</a></li>
+                                <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/chicken-and-sandwiches.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/chicken_sandwiches_300x300:menu-category-desktop" alt=""> Chicken & Sandwiches</a></li>
+                                <li><a class="dropdown-item" href="https://www.mcdonalds.com/us/en-us/full-menu/mccafe.html"><img src="https://s7d1.scene7.com/is/image/mcdonalds/mccafe_300x300:menu-category-desktop" alt=""> McCafe Drinks</a></li>
+                                </ul>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://www.mcdonalds.com/us/en-us/download-app.html">Download App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.mcdonalds.com/us/en-us/mymcdonalds.html">MyMcDonald's Rewards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.mcdonalds.com/us/en-us/deals.html">Exclusive Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.mcdonalds.com/us/en-us/about-our-food.html">About Our Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.mcdonalds.com/us/en-us/restaurant-locator.html">Locate</a>
+                        </li>
+                       
+                        </ul>
+                        <button class="Order-button">Order Now</button>
+                    </div>
+                    </div>
+                </nav>
+           </div>
+           
+            
+        </div>
+    </header>
+    <section class="row">
+       <div class="col-md-7 col-12">
+        <img class="img-fluid image-1" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/1PUB_CelebratingTheCrew_1168x520.jpg" alt="">
+       </div>
+       <div class="col-md-5 col-12 ps-5 text-1">
+        <span id="celebrate-text">Let’s Celebrate <br> Restaurant Crew and <br> Managers</span> <br><br>
+            <span id="join-us-text">Join us by sharing a story about your favorite experience <br> with one of the crew members or managers.*</span>  <br><br> 
+            <span id="most-mc-text">*Most McDonald’s restaurants are operated by independent franchisees who are solely <br> responsible for setting the employment policies and practices, including pay and <br> benefits, for the people working in their restaurants. McDonald’s USA has no control over <br> employment matters at any franchisee’s restaurant(s).</span>
+            <br>
+        <a href="https://www.mcdonalds.com/thanks">
+            <button class="submit-button">
+                Submit Your Story
+            </button>
+        </a>
+        </div>
+
+    </section>
+    <br><br><br><br><br>
+    <section class="row">
+        <div class="col-md-7 col-12">
+         <img class="img-fluid image-1" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/1pub_LargeFries-v5Loyalty_1168x520.jpg" alt="">
+        </div>
+        <div class="col-md-5 col-12 ps-5 text-1">
+         <span id="celebrate-text">Free Fries Now.<br>Free McDonald’s Later.*</span> <br><br>
+             <span id="join-us-text">Get free large Fries when you download the <br> McDonald’s app and join MyMcDonald’s Rewards. <br> Then, unlock free McDonald’s faves only in the app <br> with <a href="https://www.mcdonalds.com/us/en-us/mymcdonalds.html#bonus-points">1500 bonus points</a> after your first purchase.</span>  <br><br> 
+             <span id="most-mc-text">*Offer valid 1x thru the last day of the month for first time app users at participating <br> McDonald's until 10/31/22. May take up to 48 hours to appear in your deals. Free Loyalty <br> Reward Points valid 1x thru 12/31/22 for first time MyMcDonald’s Rewards users. Program <br> available only at participating McDonald’s. Excludes delivery. McD app download and <br> registration required. </span>
+             <br>
+         <a href="https://mcdonalds.smart.link/yotm502tc?site_id=homepage&creative_id=1col-publication">
+             <button class="submit-button">
+                 Download the App
+             </button>
+         </a>
+         </div>
+ 
+     </section>
+     <br><br><br><br><br>
+     <section class="row">
+        <div class="col-md-7 col-12">
+         <img class="img-fluid image-1" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/CCS_Aug22Rehit_1pub_1168x520.jpg" alt="">
+        </div>
+        <div class="col-md-5 col-12 ps-5 text-1">
+         <span id="celebrate-text">$5 Crispy Chicken <br> Sandwich Meal</span> <br><br>
+             <span id="join-us-text">Thru 9/4, get any Crispy, Spicy or Deluxe Chicken <br> Sandwich with medium World Famous Fries and Soft <br> Drink for only $5. And hold on to that bag—those <br> crispy crumbs left behind are a tasty grand finale.</span>  <br><br> 
+             <span id="most-mc-text"> *Valid 1/x a week. App download and registration required. At participating McDonald’s. </span>
+             <br>
+         <a href="https://mcdonalds.smart.link/2qmbsoqy1?site_id=homepage&creative_id=1col-publication">
+             <button class="submit-button">
+                 Order In the App
+             </button>
+         </a>
+         </div>
+ 
+     </section>
+     <br><br><br><br><br>
+     <section class="row">
+        <div class="col-md-4 col-12">
+         <img class="img-fluid image-2" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/1PUB_Narrow_BAPG_DotCom_ChangeLeaders_376x252.jpg" alt="">
+        </div>
+        <div class="col-md-8 col-12 ps-5 text-2">
+         <span id="celebrate-text">Lead The Change</span> <br><br>
+             <span id="join-us-text">To all those feeding and fostering community by embracing your passion, apply for a chance to be a McDonald’s® <br> Black & Positively Golden® Change Leader and ignite your story. Whether you are an activist, financial guru, artist or creator, <br> McDonald’s is empowering those who are leading change.</span>  <br><br> 
+
+             <br>
+         <a href="https://mcdonalds.smart.link/yotm502tc?site_id=homepage&creative_id=1col-publication">
+             <button class="apply-button">
+                 Apply Now To Be a Change Leader
+             </button>
+         </a>
+         </div>
+ 
+     </section>
+     <br><br><br><br><br>
+     <section class="row">
+        <div class="col-md-7 col-12">
+         <img class="img-fluid image-1" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/1PUB_Spotlight_Dorado_1168x520.jpg" alt="">
+        </div>
+        <div class="col-md-5 col-12 ps-5 text-1">
+         <span id="celebrate-text">
+            Your Story Deserves a <br> Hollywood Ending</span> <br><br>
+             <span id="join-us-text">Latinos have stories to tell, yet they make up less than <br> 1% of the ones told in Hollywood. As a champion of the <br> Hispanic community McDonald’s wants to help <br> change that. With Spotlight Dorado, McDonald’s is <br> giving aspiring Latino filmmakers a chance to <br> participate in a short film competition. Aspiring <br> filmmakers will bring their vision to life having their <br> story produced into a short film with invaluable <br> mentorship from renowned industry leaders and a <br> chance to showcase their film in film festivals around <br> the country.</span>
+
+             <br>
+         <a href="https://mcdonalds.smart.link/yotm502tc?site_id=homepage&creative_id=1col-publication">
+             <button class="learnmore-button">
+                 Learn More About Spotlight Dorado
+             </button>
+         </a>
+         </div>
+ 
+     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </section>
+        <br><br><br><br><br>
+        <section class="row">
+            <div class="col-md-7 col-12">
+            <img class="img-fluid image-1" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/1PUB_McDelivery_v4_1168x520.jpg" alt="">
+            </div>
+            <div class="col-md-5 col-12 ps-5 text-1">
+            <span id="celebrate-text">Order McDelivery® <br> Now*</span> <br><br>
+                <span id="join-us-text">Get all your McDonald’s favorites delivered right to <br> your doorstep with McDelivery® on Uber Eats, <br> DoorDash or Grubhub.</span>  <br><br> 
+                <span id="most-mc-text">*At participating McDonald’s. Prices may be higher than at restaurants. Delivery/service <br> fees apply</span>
+                <br>
+            <a href="https://mcdonalds.smart.link/2qmbsoqy1?site_id=homepage&creative_id=1col-publication">
+                <button class="McDelivery-button">
+                    Order McDelivery Now
+                </button>
+            </a>
+            </div>
+
+        </section>
+        <br><br><br><br><br>
+        <section class="row">
+            <div class="col-md-7 col-12">
+            <img class="img-fluid image-1" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/publication/1PUB_Desktop_Deals-v1_1168x520.jpg" alt="">
+            </div>
+            <div class="col-md-5 col-12 ps-5 text-1">
+            <span id="celebrate-text">Deal for Days <br> Now*</span> <br><br>
+                <span id="join-us-text">Get exclusive deals on your McDonald’s favorites in <br> the app with contactless Mobile Order & Pay* and <br> convenient Drive Thru or Curbside pickup.</span>  <br><br> 
+                <span id="most-mc-text">*Mobile Order & Pay at participating McDonald’s</span>
+                <br>
+            <a href="https://mcdonalds.smart.link/2qmbsoqy1?site_id=homepage&creative_id=1col-publication">
+                <button class="McDelivery-button">
+                    Get App Details
+                </button>
+            </a>
+            </div>
+
+        </section>
+        <br><br><br><br><br>
+        <footer>
+            <div class="container my-5">
+
+                <footer style="background-color: white;">
+                  <div class="container p-4">
+                    <div class="row">
+                      <div class="col-md-3 col-12 ">
+                        <h6 class="mb-3" style="letter-spacing: 2px; color: black; font-weight: 700;">About Us</h6>
+                        <ul class="list-unstyled mb-0">
+                          <li class="mb-1 ">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/about-us.html" style="color: black;">About Us</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/about-us/our-history.html" style="color: black;">Our History</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/about-us/leadership-team.html" style="color: black;">Leadership Team</a>
+                          </li>
+                          <li>
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/about-us/values-in-action.html" style="color: black;">Values In Action</a>
+                          </li>
+                          <li class="mb-1 ">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/us-franchising.html" style="color: black;">Franchise info</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/about-us/recalls.html" style="color: black;">Recalls&Alerts</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/about-us/franchising/real-estate.html" style="color: black;">Real Estate</a>
+                          </li>
+                          <li>
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/accessibility.html" style="color: black;">Digital Accesiblity</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://corporate.mcdonalds.com/corpmcd/investors-relations/company-profile.html" style="color: black;">Inventor relations</a>
+                          </li>
+                          <li>
+                            <a class="table-style" href="https://corporate.mcdonalds.com/corpmcd/our-stories.html" style="color: black;">News & Notifications</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3 col-12 ">
+                        <h6 class="mb-3" style="letter-spacing: 2px; color: black; font-weight: 700;">Services</h6>
+                        <ul class="list-unstyled mb-0">
+                          <li class="mb-1 ">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/services.html" style="color: black;">Services</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/services/free-wi-fi.html" style="color: black;">WI-FI</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/services/arch-card.html" style="color: black;">Gift Cards</a>
+                          </li>
+                          <li>
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/services/playplaces-and-parties.html" style="color: black;">PlayPlaces&Parties</a>
+                          </li>
+                          <li class="mb-1 ">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/mcdelivery.html" style="color: black;">McDelivery</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/mobile-order-and-pay.html" style="color: black;">Mobile Order & Pay</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/whats-hot.html" style="color: black;">Trending Now</a>
+                          </li>
+                          <li>
+                            <a class="table-style" href="https://goldenarchesunlimited.com/" style="color: black;">McDonald's Merchandise</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/family-fun-hub.html" style="color: black;">Family Fun Hub</a>
+                          </li>
+                          <li>
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/mymcdonalds.html" style="color: black;">McDonald's Rewards</a>
+                          </li>
+                          <li>
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/mccafe.html" style="color: black;">McCafe</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3 col-12 ">
+                        <h6 class="mb-3" style="letter-spacing: 2px; color: black; font-weight: 700;">Community</h6>
+                        <ul class="list-unstyled mb-0">
+                          <li class="mb-1 ">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/community.html" style="color: black;">Community</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/community/hacer.html" style="color: black;">HACER® Scholarships for <br> Hispanic Students</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/community/giving-back-with-ronald-mcdonald-house.html" style="color: black;">Ronald McDonald House Charities</a>
+                          </li>
+                          <li>
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/asian-pacific-americans/en.html" style="color: black;">McDonald’s Asian Pacific <br> American</a>
+                          </li>
+                          <li class="mb-1 ">
+                            <a class="table-style" href="https://corporate.mcdonalds.com/corpmcd.html" style="color: black;">McDonald’s International</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/black-and-positively-golden.html" style="color: black;">Black and Positively Golden</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="https://www.mcdonalds.com/us/en-us/community/lgbtq-plus.html" style="color: black;">McDonald’s LGBTQ+</a>
+                          </li>
+                         
+                        </ul>
+                      </div>
+                      <div class="col-md-3 col-12 ">
+                        <h6 class="mb-3" style="letter-spacing: 2px; color: black; font-weight: 700;">Contact Us</h6>
+                        <ul class="list-unstyled mb-0">
+                          <li class="mb-1 ">
+                            <a class="table-style" href="http://127.0.0.1:5500/Mcdonalds/index.html#!" style="color: black;">Contact Us</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="http://127.0.0.1:5500/Mcdonalds/index.html#!" style="color: black;">Gift Card FAQs</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="http://127.0.0.1:5500/Mcdonalds/index.html#!" style="color: black;">Donations</a>
+                          </li>
+                          <li>
+                            <a class="table-style" href="http://127.0.0.1:5500/Mcdonalds/index.html#!" style="color: black;">Employment</a>
+                          </li>
+                          <li class="mb-1 ">
+                            <a class="table-style" href="http://127.0.0.1:5500/Mcdonalds/index.html#!" style="color: black;">Restaurant Feedback</a>
+                          </li>
+                          <li class="mb-1">
+                            <a class="table-style" href="http://127.0.0.1:5500/Mcdonalds/index.html#!" style="color: black;">Frequently Asked <br> Questions</a>
+                          </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4 col-12 text-center">
+                       <a href="https://www.facebook.com/McDonalds/"><img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/facebook.png" alt=""></a>
+                       &nbsp;    &nbsp;
+                       <a href="https://twitter.com/mcdonalds"><img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/twitter.png" alt=""></a>
+                       &nbsp;    &nbsp;
+                       <a href="https://www.youtube.com/channel/UCRI5ZedBs0_BYY4PlxD6m7w"><img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/youtube.png" alt=""></a>
+                       &nbsp;    &nbsp; 
+                       <a href="https://www.instagram.com/mcdonalds/"><img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/instagram.png" alt=""></a>
+                       &nbsp;    &nbsp; 
+                       <a href="https://mcdonalds.tumblr.com/"><img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/tumblr.png" alt=""></a>
+                       &nbsp;    &nbsp; 
+                       <a href="https://open.spotify.com/user/mcdonalds"><img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/spotify.png" alt=""></a>
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+                 
+                            <br><br><br>
+                    <div class="col-md-4 col-12 text-center">
+                            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/app_store_badge.png" alt="">
+                            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/google_play_badge.png" alt="">
+                      </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-2 col-12 text-footer">
+                        <a class="footer-text" href="https://www.mcdonalds.com/us/en-us/privacy-overview.html">Privacy(Updated)</a>
+                      </div>
+                      <br><br>
+                      <div class="col-md-5 col-12">
+                        <a class="footer-text" href="https://www.mcdonalds.com/us/en-us/privacy.html#California-notice">California Privacy Notice</a>
+                        &nbsp;
+                        <a class="footer-text" href="https://www.mcdonalds.com/us/en-us/terms-and-conditions.html">Terms & Conditions</a>
+                        <a class="footer-text" href="https://www.mcdonalds.com/us/en-us/accessibility.html">Digital Accessibility</a>
+                      </div>
+                      <br><br>
+                      <div class="col-md-5 col-12">
+                            <img class="footer-logo" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg" alt="">
+                            © 2017 - 2022 McDonald's. All Rights Reserved
+                      </div>
+                  </div>
+                  
+                 
+
+                </footer>
+              
+              </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body{
+    overflow-x: hidden;
+    margin: 0%;
+}
+.Order-button {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background-color: #ffbc0d;
+    border-radius: 5px;
+    border: unset;
+    top: -2em;
+}
+.image-1 {
+    position: relative;
+    width: 85%;
+    top: 6em;
+    left: 13em;
+}
+.text-1{
+    position: relative;
+    top: 6em;
+    left: 3em;
+}
+#celebrate-text{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#join-us-text{
+    margin-top: 0;
+    line-height: 1.42857143;
+    font-size: 1pc;
+}
+#most-mc-text{
+    font-size: 10px;
+    line-height: 1.45;
+    color: #292929;
+    background-color: transparent;
+    display: inline-block;
+}
+.submit-button{
+    width: 160px;
+    height: 40px;
+    position: relative;
+    top: 4em;
+    background-color: #ffbc0d;
+    border-radius: 5px;
+    border: unset;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .image-1{
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+   
+  }
+  @media only screen and (max-width: 550px) {
+    .text-1{
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+   
+  }
+  .lets-celebrate-text{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .image-2 {
+    position: relative;
+    width: 59%;
+    top: 6em;
+    left: 13em;
+}
+.text-2{
+    position: relative;
+    top: 6em;
+    left: -2em;
+}
+@media only screen and (max-width: 550px) {
+    .image-2{
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+   
+  }
+  @media only screen and (max-width: 550px) {
+    .text-2{
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+   
+  }
+  .apply-button{
+    width: 270px;
+    height: 40px;
+    position: relative;
+    top: -3em;
+    background-color: #ffbc0d;
+    border-radius: 5px;
+    border: unset;
+}
+ 
+.learnmore-button{
+    width: 350px;
+    height: 40px;
+    position: relative;
+    top: 2em;
+    background-color: #ffbc0d;
+    border-radius: 5px;
+    border: unset;
+}
+.McDelivery-button{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 2em;
+    background-color: #ffbc0d;
+    border-radius: 5px;
+    border: unset;
+}
+
+
+.table-style{
+
+    text-decoration: none;
+    
+}
+.footer-logo{
+    width: 6%;
+}
+.footer-text{
+    color: black;
+    text-decoration: unset;
+}
